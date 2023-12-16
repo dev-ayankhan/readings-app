@@ -37,7 +37,7 @@ const FileUpload = () => {
             id="outlined-basic"
             label="Serial Number"
             type="number"
-            value={1234}
+            defaultValue={1234}
             variant="outlined"
             onChange={handleChange}
             required
